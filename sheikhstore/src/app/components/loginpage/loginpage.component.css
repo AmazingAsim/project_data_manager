@@ -1,0 +1,15 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(45deg,rgb(143, 143, 242),rgb(247, 128, 245));
+    padding-top: 200px;
+}
+
+button{
+    border-radius: 10px;
+     border-left: 5px solid purple;
+     border-right: 5px solid purple;
+     border-top: 0.5px solid purple;
+     border-bottom: 0.5px solid purple;
+     margin:5px;
+}

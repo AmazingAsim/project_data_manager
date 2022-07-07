@@ -1,0 +1,11 @@
+.biglogo{
+    width:50%;
+    background:url('../../../assets/logo.gif');
+    height: 100vh;
+    background-size: cover;
+    margin:auto;
+}  
+.outerbox{
+    background-color: black;
+    height: 100vh;
+}

@@ -1,0 +1,28 @@
+<div class="admin">
+    <h1 class="bg-success text-light p-2">addproducts form</h1>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form [formGroup]="productdata" (ngSubmit)="add()">
+                <input type="text" formControlName="name" placeholder="ProductName" class="form-control" required>
+                <input type="text" formControlName="brand" placeholder="brand" class="form-control">
+                <input type="text" formControlName="cat" placeholder="catogary" class="form-control">
+                <input type="number" formControlName="price" placeholder="Price" class="form-control">
+                
+                <input type="string" formControlName="images" placeholder="image url" class="form-control">
+                <h2>gender preference</h2>
+                <label for="male">Male</label> <input type="radio" name="gender" fromControlName="gender" >
+                <label for="male">Female</label> <input type="radio" name="gender" fromControlName="gender" ><br>
+        
+                <textarea formControlName="details" id="" cols="30" rows="10"></textarea><br>
+        
+                
+                <button type="submit" class="btn btn-success">Submit</button>
+        
+            </form>
+            
+        </div>
+    </div>
+  </div>
+</div>
