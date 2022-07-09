@@ -17,6 +17,8 @@ app.use(cors({
     methods:['GET','POST','PUT','DELETE']
 }))
 
+app.use(express.static('./dist/sheikhstore'))
+
 db.dbconnect()
 app.get('/',(req,res)=>{
     res.send(' i am batman')
