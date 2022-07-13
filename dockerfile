@@ -23,5 +23,5 @@ COPY --from=server_build /app ./
 
 EXPOSE 4040
 
-CMD ["node","server"]
+CMD ["node","app"]
 
